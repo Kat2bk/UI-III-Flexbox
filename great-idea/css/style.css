@@ -1,0 +1,31 @@
+/* for both pages */
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* navigation bar */
+
+.nav {
+    vertical-align: center;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.nav a {
+    padding: 10px;
+    color: grey;
+}
+
+.nav a:hover {
+    color: black;
+}
