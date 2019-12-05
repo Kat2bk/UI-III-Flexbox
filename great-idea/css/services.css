@@ -1,0 +1,53 @@
+/* need to center image */
+
+.services-header-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* beginning of page */
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+/* beginning of boxes */
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #e0e0eb;
+}
+
+/* buttons */
+
+button {
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+}
+
+hr {
+    padding: 10px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+img {
+    margin: 0 auto;
+    padding: 10px;
+}
+
