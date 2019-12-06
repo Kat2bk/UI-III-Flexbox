@@ -1,12 +1,15 @@
-.h1-header {
-    display: flex;
+.h1-head {
+    /* display: flex;
     flex-direction: column;
+    justify-content: center; */
+    text-align: center;
     font-size: 100%;
 }
 
 .header {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 /* .logo2 {
@@ -48,16 +51,15 @@
 
 /* second section */
 
-.whole2 div {
-    /* width: 40%; */
+.whole-two {
     display: flex;
+    justify-content: space-between;
 }
 
-.whole2, .half2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+.third {
+    width: 30%;
 }
+
     
 /* footer */
 
