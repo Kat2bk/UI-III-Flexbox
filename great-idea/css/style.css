@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid black;
 }
 
 p {
@@ -19,7 +18,7 @@ p {
     display: flex;
     justify-content: space-evenly; */
     display: flex;
-    align-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
