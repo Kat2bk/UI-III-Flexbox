@@ -1,66 +1,82 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.h1-head {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    font-size: 100%;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+/* .logo2 {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* First section */
+
+.whole div {
+    width: 40%;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.whole, .half {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.button {
+    text-decoration: none;
+    color: #015AAB;
+    border: 1px solid #015AAB;
+    padding: 3px 5px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #015AAB;
+    transition: 0.6s;
+    border: 2px solid white;
+}
+
+/* can't align text to the left */
+/* 
+.half h3, p {
+    text-align: left;
+} */
+
+/*  image in the middle */
+.banner-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* second section */
+
+.whole-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third {
+    width: 30%;
+}
+
+    
+/* footer */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.copyright {
+    text-align: center;
+}
